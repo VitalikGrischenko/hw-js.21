@@ -21,4 +21,16 @@ console.log(_.join([ 'Матвій' ,  'Зощеноко' ,  'Антонович
 
 //#4 _.intersection([arrays])
 
+console.log(_.intersection([32, 1203], [32, 134]))
+// => [32]
+
 //#5 _.initial(array)
+
+console.log(_.initial([3212, 1239, 1943]))
+// => [3212, 1239]
+
+//#6 _.compact(array)
+
+console.log(_.compact([ 3, true, 1, "", 2]))
+
+// => [3, 1, 2]
